@@ -1,0 +1,25 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.1.1'
+    }
+}
+apply plugin: 'com.android.application'
+repositories {
+    google()
+    mavenCentral()
+}
+android {
+    namespace 'com.example.tvshortcut'
+    compileSdk 33
+    defaultConfig {
+        applicationId "com.example.tvshortcut"
+        minSdk 21
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+    }
+}
