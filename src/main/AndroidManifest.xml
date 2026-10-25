@@ -12,7 +12,8 @@
 
     <application 
         android:label="90p TV"
-        android:icon="@drawable/ic_launcher">
+        android:icon="@drawable/ic_launcher"
+        android:banner="@drawable/banner">
         
         <activity 
             android:name=".MainActivity"
